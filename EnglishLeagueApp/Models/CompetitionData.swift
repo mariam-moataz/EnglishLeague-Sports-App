@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct CompetitionData{
+struct CompetitionData : Decodable{
     var id              : Int?
     var name            : String?
     var area            : Area?
@@ -18,7 +18,7 @@ struct CompetitionData{
 }
 
 
-struct Area{
+struct Area : Decodable{
     var id              : Int?
     var name            : String?
 }

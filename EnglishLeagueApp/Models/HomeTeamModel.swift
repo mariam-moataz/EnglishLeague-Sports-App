@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HomeTeam{
+struct HomeTeam : Decodable{
     var id      :Int?
     var name    :String?
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Score{
+struct Score : Decodable{
     var winner :String?
     var duration :String
     var fullTime: Result?

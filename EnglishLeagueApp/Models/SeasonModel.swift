@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Season{
+struct Season : Decodable{
     var id                  :Int?
     var startDate           :String?
     var endDate             :String?

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Result{
+struct Result : Decodable{
     var homeTeam :Int?
     var awayTeam :Int?
 }

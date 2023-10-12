@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AwayTeam{
+struct AwayTeam : Decodable{
     var id      :Int?
     var name    :String?
 }

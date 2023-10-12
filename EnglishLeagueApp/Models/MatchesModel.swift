@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct MatchesModel{
+struct MatchesModel : Decodable{
     var id              :Int?
     var season          :Season?
     var utcDate         :String?

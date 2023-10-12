@@ -9,9 +9,9 @@ import Foundation
 import UIKit
 
 
-extension EnglishLeagueViewController: UITableViewDataSource{
+extension EnglishLeagueViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -26,8 +26,4 @@ extension EnglishLeagueViewController: UITableViewDataSource{
     func setUpTableViewCells(){
         englishLeagueTableView.registerCell(cellType: MatchesTableViewCell.self)
     }
-}
-
-extension EnglishLeagueViewController: UITableViewDelegate{
-
 }
