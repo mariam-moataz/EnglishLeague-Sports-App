@@ -25,17 +25,35 @@ extension EnglishLeagueViewController{
 
 extension EnglishLeagueViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return matches.count
+        if categoryToggle.isOn{
+            return matches.count
+        }else{
+            return favoriteMatches.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //let cell = tableView.dequeueReusableCell(with: MatchesTableViewCell.self, for: indexPath)
         let cell = tableView.dequeueReusableCell(withIdentifier: "MatchesTableViewCell") as! MatchesTableViewCell
-        cell.configureCell(matchData: matches[indexPath.row])
+        if categoryToggle.isOn{
+            cell.configureCell(matchData: matches[indexPath.row])
+            cell.rowOfIndexPath = indexPath.row
+            cell.delegate = self
+            if matches[indexPath.row].favoriteState == true{
+                cell.favoriteStack.isHidden = true
+            }else{
+                cell.favoriteStack.isHidden = false
+            }
+        }else{
+            cell.configureCell(matchData: favoriteMatches[indexPath.row])
+            cell.favoriteStack.isHidden = true
+        }
+
+        cell.noSelectionStyle()
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150
+        return 130
     }
 }

@@ -11,7 +11,4 @@ struct Score : Decodable{
     var winner :String?
     var duration :String
     var fullTime: Result?
-    var halfTime: Result?
-    var extraTime: Result?
-    var penalties: Result?
 }

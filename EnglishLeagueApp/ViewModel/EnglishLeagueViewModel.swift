@@ -14,7 +14,7 @@ class EnglishLeagueViewModel{
     
     var apiResult: ApiResultsModel?
     
-    var matches : [MatchesModel]?{
+    var matches : [MatchModel]?{
         didSet{
             bindResultsToViewController?()
         }
