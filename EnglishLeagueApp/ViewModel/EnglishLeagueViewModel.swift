@@ -38,7 +38,6 @@ class EnglishLeagueViewModel{
                 return
             }
             self.matches = apiResult.matches
-            //self.apiResult = apiResult
         }
     }
     

@@ -6,7 +6,7 @@ target 'EnglishLeagueApp' do
   use_frameworks!
 
   pod 'Alamofire'
-	
+  pod 'SwiftMessages'	
   # Pods for EnglishLeagueApp
 
 end

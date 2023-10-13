@@ -17,8 +17,6 @@ extension EnglishLeagueViewController{
         setUpTableViewCells()
     }
     func setUpTableViewCells(){
-        //englishLeagueTableView.registerCell(cellType: MatchesTableViewCell.self)
-        //ordersTable.register(UINib(nibName: "OrderTableViewCell", bundle: nil), forCellReuseIdentifier: "ordercell")
         englishLeagueTableView.register(UINib(nibName: "MatchesTableViewCell", bundle: nil), forCellReuseIdentifier: "MatchesTableViewCell")
     }
 }
@@ -33,7 +31,6 @@ extension EnglishLeagueViewController: UITableViewDataSource, UITableViewDelegat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //let cell = tableView.dequeueReusableCell(with: MatchesTableViewCell.self, for: indexPath)
         let cell = tableView.dequeueReusableCell(withIdentifier: "MatchesTableViewCell") as! MatchesTableViewCell
         if categoryToggle.isOn{
             cell.configureCell(matchData: matches[indexPath.row])

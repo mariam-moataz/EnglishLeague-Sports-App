@@ -10,15 +10,6 @@ import Foundation
 
 extension String{
     
-    func convertUTCToString(utcDate: Date) -> Self{
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "dd:MM:yyyy HH:mm:ss"
-        dateFormatter.timeZone = TimeZone(identifier: "UTC")
-
-        let dateString = dateFormatter.string(from: utcDate)
-        return dateString
-    }
-    
     func convertUTCStringToString() -> String? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss'Z'"

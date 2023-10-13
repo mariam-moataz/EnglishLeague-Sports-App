@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EnglishLeagueViewController: UIViewController {
+class EnglishLeagueViewController: BaseVC {
 
     //MARK: - Outlets -
     @IBOutlet weak var englishLeagueTableView: UITableView!
@@ -63,8 +63,12 @@ class EnglishLeagueViewController: UIViewController {
     }
     
     func getMatches(){
+        showIndicator()
         englishLeagueVM.getMatches()
         englishLeagueVM.bindResultsToViewController = {
+            DispatchQueue.main.async {
+                self.hideIndicator()
+            }
             guard let matches = self.englishLeagueVM.matches else{
                 DispatchQueue.main.async {
                     let alert = UIAlertController(title: "Error", message: "Could not fetch data", preferredStyle: .alert)

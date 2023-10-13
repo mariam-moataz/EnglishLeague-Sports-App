@@ -22,11 +22,19 @@ class DatabaseManager : DatabaseProtocol
         coreDataProduct.setValue(true               , forKey: "favoriteState")
         coreDataProduct.setValue(match.id           , forKey: "id")
         coreDataProduct.setValue(match.status       , forKey: "status")
-        coreDataProduct.setValue(match.score?.fullTime?.homeTeam      , forKey: "homeTeamScore")
-        coreDataProduct.setValue(match.score?.fullTime?.awayTeam      , forKey: "awayTeamScore")
+        
         coreDataProduct.setValue(match.utcDate      , forKey: "date")
         coreDataProduct.setValue(match.homeTeam?.name     , forKey: "homeTeam")
         coreDataProduct.setValue(match.awayTeam?.name     , forKey: "awayTeam")
+        
+        if match.status == Status.scheduled.rawValue{
+            coreDataProduct.setValue(0      , forKey: "homeTeamScore")
+            coreDataProduct.setValue(0     , forKey: "awayTeamScore")
+        }else{
+            coreDataProduct.setValue(match.score?.fullTime?.homeTeam      , forKey: "homeTeamScore")
+            coreDataProduct.setValue(match.score?.fullTime?.awayTeam      , forKey: "awayTeamScore")
+        }
+        
         do{
             try managedContext.save()
             print(" saved ")
@@ -39,7 +47,6 @@ class DatabaseManager : DatabaseProtocol
         var favouriteList = [MatchModel]()
         let managedContext = appDelegate.persistentContainer.viewContext
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Matches")
-        //fetchRequest.predicate = NSPredicate(format: "userID = \(userId)")
         do{
             let matches = try managedContext.fetch(fetchRequest)
             print("fetching done")
