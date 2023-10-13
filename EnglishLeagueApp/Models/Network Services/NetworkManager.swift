@@ -12,10 +12,15 @@ class NetworkManager{
     static let shared = NetworkManager()
     private init (){}
     
-    func fetchData(url: String){
-        let networkModel = NetworkModel()
-        networkModel.fetchData(url: url) { T in
-            
+
+    func fetchMatchesData(url: String, compilation:@escaping (ApiResultsModel?, Error?) -> Void){
+
+        NetworkModel.shared.fetchData(url: url) { results, error in
+            guard error == nil else{
+                compilation(nil,error)
+                return
+            }
+            compilation(results,nil)
         }
     }
 }

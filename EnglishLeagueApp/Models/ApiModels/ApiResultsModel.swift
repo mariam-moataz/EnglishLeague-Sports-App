@@ -12,4 +12,5 @@ struct ApiResultsModel : Decodable{
     var count: Int?
     var filters : [String:String]?
     var competition : CompetitionData?
+    var matches : [MatchesModel]?
 }

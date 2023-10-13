@@ -9,17 +9,26 @@ import Foundation
 import Alamofire
 
 class NetworkModel{
-    func fetchData<T>(url: String?, compiletionHandler: @escaping (T?) -> Void) where T : Decodable {
+    
+    static let shared = NetworkModel()
+    private init(){}
+    
+    func fetchData<T>(url: String?, compiletionHandler: @escaping (T?, Error?) -> Void) where T : Decodable {
         
-        let request = AF.request(url ?? "")
+        let httpHeader : HTTPHeader = HTTPHeader(name: UserKeys.authKey.rawValue, value: UserKeys.accessToken.rawValue)
+        
+        let request = AF.request(url ?? "",headers: [httpHeader])
         
         request.responseDecodable(of:T.self) { (response) in
+            guard response.error == nil else{
+                compiletionHandler(nil,response.error!)
+                return
+            }
             guard let APIResult = response.value else {
-                
-                compiletionHandler(nil)
+                compiletionHandler(nil,nil)
                 return }
             
-            compiletionHandler(APIResult)
+            compiletionHandler(APIResult,nil)
         }
     }
 }

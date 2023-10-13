@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "89ECC11E-D809-429E-86F6-6523105BEF57"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3ECA886-486F-4060-A250-815DF75E341A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Views/EnglishLeagueVC/EnglishLeagueVCExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3ECA886-486F-4060-A250-815DF75E341A - 682e93bd4614d170"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EnglishLeagueApp.EnglishLeagueViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Views/EnglishLeagueVC/EnglishLeagueVCExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "367">
+               </Location>
+               <Location
+                  uuid = "F3ECA886-486F-4060-A250-815DF75E341A - 682e93bd4614d111"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EnglishLeagueApp.EnglishLeagueViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Views/EnglishLeagueVC/EnglishLeagueVCExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2453FA48-C7AA-4022-BF46-003DCCFC863C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Views/MatchesTableViewCell/MatchesTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45A49240-E1F1-4C06-9682-883C4A43AF44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "registerCell(cellType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45A49240-E1F1-4C06-9682-883C4A43AF44 - eca7e2d773a21a7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UITableView.registerCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UITableViewCell&gt;(cellType: &#x3c4;_0_0.Type) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "137">
+               </Location>
+               <Location
+                  uuid = "45A49240-E1F1-4C06-9682-883C4A43AF44 - eca7e2d773a21a7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UITableView.registerCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UITableViewCell&gt;(cellType: &#x3c4;_0_0.Type) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B4C2D2F-820F-4248-8F58-DFB966CE032F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "registerCell(cellType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B4C2D2F-820F-4248-8F58-DFB966CE032F - eca7e2d773a21a9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UITableView.registerCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UITableViewCell&gt;(cellType: &#x3c4;_0_0.Type) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "209">
+               </Location>
+               <Location
+                  uuid = "5B4C2D2F-820F-4248-8F58-DFB966CE032F - eca7e2d773a21a9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UITableView.registerCell&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.UITableViewCell&gt;(cellType: &#x3c4;_0_0.Type) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F763728F-3FDA-4C6F-9120-35EED5EF3C7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Helper/UIExtensions/UITableViewExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "dequeueReusableCell(with:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1015D0A7-D392-4882-9758-E6D50E5598D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Views/EnglishLeagueVC/EnglishLeagueViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D09F5B84-146D-496E-ADFA-A4FEA3C8BCD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getMatches()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D09F5B84-146D-496E-ADFA-A4FEA3C8BCD5 - 82736e9d3cdbbdf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "D09F5B84-146D-496E-ADFA-A4FEA3C8BCD5 - 82736e9d3cdbbdf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  uuid = "D09F5B84-146D-496E-ADFA-A4FEA3C8BCD5 - 50b9158d1ce19467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "342">
+               </Location>
+               <Location
+                  uuid = "D09F5B84-146D-496E-ADFA-A4FEA3C8BCD5 - 50b9158d1ce19467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA77E198-AA10-454E-92D3-2D60E7A683B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getMatches()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA77E198-AA10-454E-92D3-2D60E7A683B2 - 82736e9d3cdbbc11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "281">
+               </Location>
+               <Location
+                  uuid = "AA77E198-AA10-454E-92D3-2D60E7A683B2 - 50b9158d1ce195c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "218">
+               </Location>
+               <Location
+                  uuid = "AA77E198-AA10-454E-92D3-2D60E7A683B2 - 50b9158d1ce195c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "AA77E198-AA10-454E-92D3-2D60E7A683B2 - 50b9158d1ce195c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "AA77E198-AA10-454E-92D3-2D60E7A683B2 - 50b9158d1ce195c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "293">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FD6BC6E-34A3-458E-80A2-C95DBC9329DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getMatches()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8FD6BC6E-34A3-458E-80A2-C95DBC9329DA - 82736e9d3cdbbc7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2359">
+               </Location>
+               <Location
+                  uuid = "8FD6BC6E-34A3-458E-80A2-C95DBC9329DA - 50b9158d1ce195ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "8FD6BC6E-34A3-458E-80A2-C95DBC9329DA - 50b9158d1ce195ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "683">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE389CA8-C5AF-4112-922F-8DAEAECE34C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getMatches()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE389CA8-C5AF-4112-922F-8DAEAECE34C4 - c93dd30805696bd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "EE389CA8-C5AF-4112-922F-8DAEAECE34C4 - 82736e9d3cdbbd76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  uuid = "EE389CA8-C5AF-4112-922F-8DAEAECE34C4 - c93dd30805696bd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EnglishLeagueApp.EnglishLeagueViewModel.getMatches() -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/ViewModel/EnglishLeagueViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17A7E883-2141-4EE7-8D48-F24BF91FC25D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Enums/MainUrls.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "stringValue()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9433C1A7-CAE6-4B79-A20A-DBF8E87975AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Enums/MainUrls.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "stringValue()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30674FC1-2EC7-459C-B5F9-802A8E41CAA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Network Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchMatchesData(url:compilation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30674FC1-2EC7-459C-B5F9-802A8E41CAA3 - f2be04a25eee6c71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.NetworkManager.fetchMatchesData(url: Swift.String, compilation: (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Models/Network%20Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "30674FC1-2EC7-459C-B5F9-802A8E41CAA3 - 55b3dbf5aa98cd8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.NetworkManager.fetchMatchesData(url: Swift.String, compilation: (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Models/Network%20Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "775E6E33-E3A0-4E08-8458-09C1A75665C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Network Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchMatchesData(url:compilation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "775E6E33-E3A0-4E08-8458-09C1A75665C9 - f2be04a25eee6df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.NetworkManager.fetchMatchesData(url: Swift.String, compilation: (Swift.Optional&lt;EnglishLeagueApp.MatchesModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Models/Network%20Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "775E6E33-E3A0-4E08-8458-09C1A75665C9 - 55b3dbf5aa98cc0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EnglishLeagueApp.NetworkManager.fetchMatchesData(url: Swift.String, compilation: (Swift.Optional&lt;EnglishLeagueApp.ApiResultsModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EnglishLeagueApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariammoataz/Desktop/me/EnglishLeagueApp/EnglishLeagueApp/Models/Network%20Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "225">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B789474F-6A07-4F69-965E-AEEB99ACE2C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Network Services/NetworkModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchData(url:compiletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8965F975-BC22-4761-8621-034D3BD432E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Network Services/NetworkModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchData(url:compiletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3877D680-78F5-4416-857E-EF5F1F3B1378"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Network Services/NetworkModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchData(url:compiletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1193A4D2-79D8-4B68-B55A-13461FA2A753"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Models/Network Services/NetworkModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchData(url:compiletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA992E01-D602-4DD0-8830-9C5B5BB2B12F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishLeagueApp/Views/EnglishLeagueVC/EnglishLeagueVCExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
