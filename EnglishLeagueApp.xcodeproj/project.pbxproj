@@ -40,8 +40,20 @@
 		C9E48F832AD9577E00614A8A /* EnglishLeagueApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9E48F812AD9577E00614A8A /* EnglishLeagueApp.xcdatamodeld */; };
 		C9E48F852AD95BE000614A8A /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E48F842AD95BE000614A8A /* CoreDataViewModel.swift */; };
 		C9E48F872AD95FF100614A8A /* AddToFavoriteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E48F862AD95FF100614A8A /* AddToFavoriteDelegate.swift */; };
+		C9E48F922AD97C9300614A8A /* EnglishLeagueAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E48F912AD97C9300614A8A /* EnglishLeagueAppTests.swift */; };
+		C9E48F992AD97CD200614A8A /* NetworkResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E48F982AD97CD200614A8A /* NetworkResponseTest.swift */; };
 		EA4E752E485F8072E4CA953C /* Pods_EnglishLeagueApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1233D7EAC2A50E9B48885E /* Pods_EnglishLeagueApp.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9E48F932AD97C9300614A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9432F7D2AD742C700CD2AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9432F842AD742C700CD2AF0;
+			remoteInfo = EnglishLeagueApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6D6734BCD1D86A2E52D43D4D /* Pods-EnglishLeagueApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnglishLeagueApp.debug.xcconfig"; path = "Target Support Files/Pods-EnglishLeagueApp/Pods-EnglishLeagueApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +93,9 @@
 		C9E48F822AD9577E00614A8A /* EnglishLeagueApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EnglishLeagueApp.xcdatamodel; sourceTree = "<group>"; };
 		C9E48F842AD95BE000614A8A /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		C9E48F862AD95FF100614A8A /* AddToFavoriteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToFavoriteDelegate.swift; sourceTree = "<group>"; };
+		C9E48F8F2AD97C9300614A8A /* EnglishLeagueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnglishLeagueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E48F912AD97C9300614A8A /* EnglishLeagueAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishLeagueAppTests.swift; sourceTree = "<group>"; };
+		C9E48F982AD97CD200614A8A /* NetworkResponseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseTest.swift; sourceTree = "<group>"; };
 		CD1233D7EAC2A50E9B48885E /* Pods_EnglishLeagueApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnglishLeagueApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +105,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA4E752E485F8072E4CA953C /* Pods_EnglishLeagueApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E48F8C2AD97C9300614A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				C9432F872AD742C700CD2AF0 /* EnglishLeagueApp */,
+				C9E48F902AD97C9300614A8A /* EnglishLeagueAppTests */,
 				C9432F862AD742C700CD2AF0 /* Products */,
 				CE3ABA4C6D1B87310C138CB0 /* Pods */,
 				C644E9453C242456BB054636 /* Frameworks */,
@@ -118,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				C9432F852AD742C700CD2AF0 /* EnglishLeagueApp.app */,
+				C9E48F8F2AD97C9300614A8A /* EnglishLeagueAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -267,6 +291,15 @@
 			path = "Database Services";
 			sourceTree = "<group>";
 		};
+		C9E48F902AD97C9300614A8A /* EnglishLeagueAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9E48F982AD97CD200614A8A /* NetworkResponseTest.swift */,
+				C9E48F912AD97C9300614A8A /* EnglishLeagueAppTests.swift */,
+			);
+			path = EnglishLeagueAppTests;
+			sourceTree = "<group>";
+		};
 		CE3ABA4C6D1B87310C138CB0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +331,24 @@
 			productReference = C9432F852AD742C700CD2AF0 /* EnglishLeagueApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C9E48F8E2AD97C9300614A8A /* EnglishLeagueAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E48F952AD97C9300614A8A /* Build configuration list for PBXNativeTarget "EnglishLeagueAppTests" */;
+			buildPhases = (
+				C9E48F8B2AD97C9300614A8A /* Sources */,
+				C9E48F8C2AD97C9300614A8A /* Frameworks */,
+				C9E48F8D2AD97C9300614A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E48F942AD97C9300614A8A /* PBXTargetDependency */,
+			);
+			name = EnglishLeagueAppTests;
+			productName = EnglishLeagueAppTests;
+			productReference = C9E48F8F2AD97C9300614A8A /* EnglishLeagueAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -310,6 +361,10 @@
 				TargetAttributes = {
 					C9432F842AD742C700CD2AF0 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					C9E48F8E2AD97C9300614A8A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C9432F842AD742C700CD2AF0;
 					};
 				};
 			};
@@ -327,6 +382,7 @@
 			projectRoot = "";
 			targets = (
 				C9432F842AD742C700CD2AF0 /* EnglishLeagueApp */,
+				C9E48F8E2AD97C9300614A8A /* EnglishLeagueAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,6 +396,13 @@
 				C99E0C292AD87FE600433DE3 /* MatchesTableViewCell.xib in Resources */,
 				C9432F922AD742C800CD2AF0 /* Assets.xcassets in Resources */,
 				C9432F902AD742C700CD2AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E48F8D2AD97C9300614A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +487,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9E48F8B2AD97C9300614A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E48F922AD97C9300614A8A /* EnglishLeagueAppTests.swift in Sources */,
+				C9E48F992AD97CD200614A8A /* NetworkResponseTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E48F942AD97C9300614A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9432F842AD742C700CD2AF0 /* EnglishLeagueApp */;
+			targetProxy = C9E48F932AD97C9300614A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C9432F8E2AD742C700CD2AF0 /* Main.storyboard */ = {
@@ -618,6 +698,50 @@
 			};
 			name = Release;
 		};
+		C9E48F962AD97C9300614A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64BDJTHJNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariam.EnglishLeagueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishLeagueApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnglishLeagueApp";
+			};
+			name = Debug;
+		};
+		C9E48F972AD97C9300614A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64BDJTHJNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariam.EnglishLeagueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnglishLeagueApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnglishLeagueApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -635,6 +759,15 @@
 			buildConfigurations = (
 				C9432F9A2AD742C800CD2AF0 /* Debug */,
 				C9432F9B2AD742C800CD2AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E48F952AD97C9300614A8A /* Build configuration list for PBXNativeTarget "EnglishLeagueAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E48F962AD97C9300614A8A /* Debug */,
+				C9E48F972AD97C9300614A8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

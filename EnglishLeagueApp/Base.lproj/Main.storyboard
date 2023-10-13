@@ -20,13 +20,13 @@
                                 <rect key="frame" x="16" y="75" width="361" height="727"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="7mu-zE-UuG">
-                                        <rect key="frame" x="0.0" y="0.0" width="361" height="58"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="31"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qUO-kt-8nq">
-                                                <rect key="frame" x="0.0" y="0.0" width="252.66666666666666" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="252.66666666666666" height="31"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English League" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vka-kg-rxM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="252.66666666666666" height="58"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="252.66666666666666" height="31"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -41,7 +41,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56Y-4p-gAj">
-                                                <rect key="frame" x="268.66666666666669" y="13.666666666666671" width="92.333333333333314" height="31"/>
+                                                <rect key="frame" x="268.66666666666669" y="0.0" width="92.333333333333314" height="31"/>
                                                 <subviews>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6to-Ie-3Bg">
                                                         <rect key="frame" x="27.333333333333314" y="0.0" width="51" height="31"/>
@@ -61,10 +61,22 @@
                                             <constraint firstItem="qUO-kt-8nq" firstAttribute="width" secondItem="7mu-zE-UuG" secondAttribute="width" multiplier="0.7" id="TEl-Ec-WLH"/>
                                         </constraints>
                                     </stackView>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ObP-zi-7MV">
-                                        <rect key="frame" x="0.0" y="87" width="361" height="640"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xv5-p5-Ms9">
+                                        <rect key="frame" x="0.0" y="60" width="361" height="667"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ObP-zi-7MV">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="667"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </tableView>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </tableView>
+                                        <constraints>
+                                            <constraint firstItem="ObP-zi-7MV" firstAttribute="leading" secondItem="xv5-p5-Ms9" secondAttribute="leading" id="3SA-RH-8oI"/>
+                                            <constraint firstAttribute="bottom" secondItem="ObP-zi-7MV" secondAttribute="bottom" id="DjE-Ud-su6"/>
+                                            <constraint firstItem="ObP-zi-7MV" firstAttribute="top" secondItem="xv5-p5-Ms9" secondAttribute="top" id="Ey5-5y-Jsn"/>
+                                            <constraint firstAttribute="trailing" secondItem="ObP-zi-7MV" secondAttribute="trailing" id="X2t-lg-CDn"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
